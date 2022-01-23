@@ -1,0 +1,14 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@application/*": ["src/application/*"],
+      "@assets/*": ["assets/*"],
+      "@core-kits/*": ["src/core-kits/*"],
+      "@features/*": ["src/features/*"]
+    },
+    "skipLibCheck": false,
+    "strict": true
+  }
+}
